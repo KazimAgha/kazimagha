@@ -4,10 +4,10 @@
 
 int main(void){
 
-printf("Name: Ahmed Ajmal\nRoll Number: DDP-FA14-BCS-151\nSection: C\n");
+printf("Name: Agha Ali Kazim\n Rollno: DDP-FA14-BCS-146\n Section: C\n");
 
 char cwd[1024];
 getcwd(cwd,sizeof(cwd));
-printf("present  working directory is %s\n",cwd);
+printf("present  wrkng directory is %s\n",cwd);
 
 }
