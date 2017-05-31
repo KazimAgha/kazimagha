@@ -2,13 +2,13 @@
 
 int main(int argc, char* argv[])
 { 
-int check;
-char *dirname; 
+int test;
+char *drname; 
 
-dirname=argv[1];
-check = rmdir(dirname); 
+drname=argv[1];
+test = rmdir(drname); 
 
-if (!check)
+if (!test)
 	printf("Directory deleted\n"); 
 else 
 {
