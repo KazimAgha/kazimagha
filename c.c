@@ -8,7 +8,7 @@ if(argc!=3){
 printf("error");
 exit(1);
 }
-int sock,n;
+int sock,a;
 struct sockaddr_in server;
 char message[1000],server_reply[2000];
 
