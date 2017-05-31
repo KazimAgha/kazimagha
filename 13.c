@@ -6,27 +6,27 @@
 
 int main(int argc, char *argv[]){
 
-printf("Name: Ahmed Ajmal\nRoll Number: DDP-FA14-BCS-151\nSection: C\n");
+printf("Name: Agha Ali Kazim\n Roll NU: DDP-FA14-BCS-146\n Section: C\n");
 
 char *buf[buf_Size];
 int fd1,fd2,readfb,writef;
 
 if(argc!=3){
-printf("insufficient arguments\n");
+printf("incomplete arguments\n");
 exit(1);
 }
 
 fd1=open(argv[1],O_RDONLY);
 
 if(fd1==-1){
-	printf("ERROR IN OPENING SOURCE FILE\n");
+	printf("ERROR SOURCE FIlE\n");
 	exit(1);
 }
 
 fd2=open(argv[2],O_WRONLY);
 	
 if(fd2==-1){
-	printf("ERROR IN OPENING SOURCE FILE\n");
+	printf("ERROR SOURCE FILE\n");
 	exit(1);
 }
 
